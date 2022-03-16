@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Orange HRM Application Test Automation Test Suite">
+    <listeners>
+        <listener class-name="com.qa.ExtentReportListener.ExtentReportListener" />
+    </listeners>
+    <test verbose="2" preserve-order="true" name="C:/Users/hamza/OrangeHRM">
+        <classes>
+            <class name="com.hrm.qa.testcases.AdminPageTest">
+                <methods>
+                    <include name="verifyAdminPageTest"/>
+                    <include name="selectingSingleUserTest"/>
+                    <include name="selectingMultipleUserTest"/>
+                </methods>
+            </class>
+            <class name="com.hrm.qa.testcases.DashboardPageTest">
+                <methods>
+                    <include name="verifyDashboardTitleTest"/>
+                    <include name="verifyDashBoardHeaderTest"/>
+                </methods>
+            </class>
+            <class name="com.hrm.qa.testcases.LoginPageTest">
+                <methods>
+                    <include name="loginPageTitleTest"/>
+                    <include name="crmLogoImageTest"/>
+                    <include name="loginTest"/>
+                </methods>
+            </class>
+            <class name="com.hrm.qa.testcases.MyInfoPageTest">
+                <methods>
+                    <include name="verifyMyInfoIsDisplayedTest"/>
+                    <include name="clickOnMyInfoTabTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

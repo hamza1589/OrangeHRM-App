@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="13" passed="12">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="102512" started-at="2022-03-16T10:27:18 EDT" finished-at="2022-03-16T10:29:01 EDT">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="102512" started-at="2022-03-16T10:27:18 EDT" finished-at="2022-03-16T10:29:01 EDT">
+      <class name="com.hrm.qa.testcases.AdminPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hrm.qa.testcases.AdminPageTest@6e0e048a]" name="setUp" is-config="true" duration-ms="7963" started-at="2022-03-16T10:27:18 EDT" finished-at="2022-03-16T10:27:26 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyAdminPageTest()[pri:1, instance:com.hrm.qa.testcases.AdminPageTest@6e0e048a]" name="verifyAdminPageTest" duration-ms="70" started-at="2022-03-16T10:27:26 EDT" finished-at="2022-03-16T10:27:26 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAdminPageTest -->
+        <test-method status="PASS" signature="teaDown()[pri:0, instance:com.hrm.qa.testcases.AdminPageTest@6e0e048a]" name="teaDown" is-config="true" duration-ms="599" started-at="2022-03-16T10:27:26 EDT" finished-at="2022-03-16T10:27:27 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teaDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hrm.qa.testcases.AdminPageTest@6e0e048a]" name="setUp" is-config="true" duration-ms="4995" started-at="2022-03-16T10:27:27 EDT" finished-at="2022-03-16T10:27:32 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="selectingSingleUserTest()[pri:2, instance:com.hrm.qa.testcases.AdminPageTest@6e0e048a]" name="selectingSingleUserTest" duration-ms="100" started-at="2022-03-16T10:27:32 EDT" finished-at="2022-03-16T10:27:32 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectingSingleUserTest -->
+        <test-method status="PASS" signature="teaDown()[pri:0, instance:com.hrm.qa.testcases.AdminPageTest@6e0e048a]" name="teaDown" is-config="true" duration-ms="606" started-at="2022-03-16T10:27:32 EDT" finished-at="2022-03-16T10:27:32 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teaDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hrm.qa.testcases.AdminPageTest@6e0e048a]" name="setUp" is-config="true" duration-ms="6866" started-at="2022-03-16T10:27:32 EDT" finished-at="2022-03-16T10:27:39 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="selectingMultipleUserTest()[pri:3, instance:com.hrm.qa.testcases.AdminPageTest@6e0e048a]" name="selectingMultipleUserTest" duration-ms="10154" started-at="2022-03-16T10:27:39 EDT" finished-at="2022-03-16T10:27:50 EDT">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":" //a[text()='Johny123']//parent::td[@class='left']//preceding-sibling::td//input[@name='chkSelectRow[]']"}
+  (Session info: chrome=99.0.4844.51)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-0AOM9FTS', ip: '192.168.0.21', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.51, chrome: {chromedriverVersion: 98.0.4758.102 (273bf7ac8c90..., userDataDir: C:\WINDOWS\TEMP\scoped_dir3...}, goog:chromeOptions: {debuggerAddress: localhost:61587}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: dd32e21ec140485394a32266872cd735
+*** Element info: {Using=xpath, value= //a[text()='Johny123']//parent::td[@class='left']//preceding-sibling::td//input[@name='chkSelectRow[]']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":" //a[text()='Johny123']//parent::td[@class='left']//preceding-sibling::td//input[@name='chkSelectRow[]']"}
+  (Session info: chrome=99.0.4844.51)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-0AOM9FTS', ip: '192.168.0.21', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.51, chrome: {chromedriverVersion: 98.0.4758.102 (273bf7ac8c90..., userDataDir: C:\WINDOWS\TEMP\scoped_dir3...}, goog:chromeOptions: {debuggerAddress: localhost:61587}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: dd32e21ec140485394a32266872cd735
+*** Element info: {Using=xpath, value= //a[text()='Johny123']//parent::td[@class='left']//preceding-sibling::td//input[@name='chkSelectRow[]']}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+at com.sun.proxy.$Proxy6.findElement(Unknown Source)
+at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
+at com.hrm.qa.pages.AdminPage.selectUsersByName(AdminPage.java:41)
+at com.hrm.qa.testcases.AdminPageTest.selectingMultipleUserTest(AdminPageTest.java:48)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectingMultipleUserTest -->
+        <test-method status="PASS" signature="teaDown()[pri:0, instance:com.hrm.qa.testcases.AdminPageTest@6e0e048a]" name="teaDown" is-config="true" duration-ms="612" started-at="2022-03-16T10:27:50 EDT" finished-at="2022-03-16T10:27:50 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teaDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hrm.qa.testcases.AdminPageTest@6e0e048a]" name="setUp" is-config="true" duration-ms="6763" started-at="2022-03-16T10:27:51 EDT" finished-at="2022-03-16T10:27:58 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateCreationNewAdminTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:com.hrm.qa.testcases.AdminPageTest@6e0e048a]" name="validateCreationNewAdminTest" duration-ms="1478" started-at="2022-03-16T10:27:58 EDT" data-provider="getOrangeHRMTestData" finished-at="2022-03-16T10:27:59 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[eric]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[eric12]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[elite]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[elite]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCreationNewAdminTest -->
+        <test-method status="PASS" signature="teaDown()[pri:0, instance:com.hrm.qa.testcases.AdminPageTest@6e0e048a]" name="teaDown" is-config="true" duration-ms="621" started-at="2022-03-16T10:27:59 EDT" finished-at="2022-03-16T10:28:00 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teaDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hrm.qa.testcases.AdminPageTest@6e0e048a]" name="setUp" is-config="true" duration-ms="9904" started-at="2022-03-16T10:28:00 EDT" finished-at="2022-03-16T10:28:10 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateCreationNewAdminTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:com.hrm.qa.testcases.AdminPageTest@6e0e048a]" name="validateCreationNewAdminTest" duration-ms="1387" started-at="2022-03-16T10:28:10 EDT" data-provider="getOrangeHRMTestData" finished-at="2022-03-16T10:28:11 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[max]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[max12]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[elite1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[elite1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCreationNewAdminTest -->
+        <test-method status="PASS" signature="teaDown()[pri:0, instance:com.hrm.qa.testcases.AdminPageTest@6e0e048a]" name="teaDown" is-config="true" duration-ms="620" started-at="2022-03-16T10:28:11 EDT" finished-at="2022-03-16T10:28:12 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teaDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hrm.qa.testcases.AdminPageTest@6e0e048a]" name="setUp" is-config="true" duration-ms="9210" started-at="2022-03-16T10:28:12 EDT" finished-at="2022-03-16T10:28:21 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateCreationNewAdminTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:com.hrm.qa.testcases.AdminPageTest@6e0e048a]" name="validateCreationNewAdminTest" duration-ms="1286" started-at="2022-03-16T10:28:21 EDT" data-provider="getOrangeHRMTestData" finished-at="2022-03-16T10:28:22 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[steph]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[steph12]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[elite2]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[elite2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCreationNewAdminTest -->
+        <test-method status="PASS" signature="teaDown()[pri:0, instance:com.hrm.qa.testcases.AdminPageTest@6e0e048a]" name="teaDown" is-config="true" duration-ms="615" started-at="2022-03-16T10:28:22 EDT" finished-at="2022-03-16T10:28:23 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teaDown -->
+      </class> <!-- com.hrm.qa.testcases.AdminPageTest -->
+      <class name="com.hrm.qa.testcases.LoginPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hrm.qa.testcases.LoginPageTest@76707e36]" name="setUp" is-config="true" duration-ms="2434" started-at="2022-03-16T10:28:36 EDT" finished-at="2022-03-16T10:28:38 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginPageTitleTest()[pri:1, instance:com.hrm.qa.testcases.LoginPageTest@76707e36]" name="loginPageTitleTest" duration-ms="10" started-at="2022-03-16T10:28:38 EDT" finished-at="2022-03-16T10:28:38 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hrm.qa.testcases.LoginPageTest@76707e36]" name="tearDown" is-config="true" duration-ms="599" started-at="2022-03-16T10:28:38 EDT" finished-at="2022-03-16T10:28:39 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hrm.qa.testcases.LoginPageTest@76707e36]" name="setUp" is-config="true" duration-ms="2407" started-at="2022-03-16T10:28:39 EDT" finished-at="2022-03-16T10:28:41 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="crmLogoImageTest()[pri:2, instance:com.hrm.qa.testcases.LoginPageTest@76707e36]" name="crmLogoImageTest" duration-ms="60" started-at="2022-03-16T10:28:41 EDT" finished-at="2022-03-16T10:28:41 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- crmLogoImageTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hrm.qa.testcases.LoginPageTest@76707e36]" name="tearDown" is-config="true" duration-ms="595" started-at="2022-03-16T10:28:41 EDT" finished-at="2022-03-16T10:28:42 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hrm.qa.testcases.LoginPageTest@76707e36]" name="setUp" is-config="true" duration-ms="2556" started-at="2022-03-16T10:28:42 EDT" finished-at="2022-03-16T10:28:44 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginTest()[pri:3, instance:com.hrm.qa.testcases.LoginPageTest@76707e36]" name="loginTest" duration-ms="2071" started-at="2022-03-16T10:28:44 EDT" finished-at="2022-03-16T10:28:46 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hrm.qa.testcases.LoginPageTest@76707e36]" name="tearDown" is-config="true" duration-ms="606" started-at="2022-03-16T10:28:46 EDT" finished-at="2022-03-16T10:28:47 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.hrm.qa.testcases.LoginPageTest -->
+      <class name="com.hrm.qa.testcases.MyInfoPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hrm.qa.testcases.MyInfoPageTest@614ddd49]" name="setUp" is-config="true" duration-ms="5428" started-at="2022-03-16T10:28:47 EDT" finished-at="2022-03-16T10:28:52 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyMyInfoIsDisplayedTest()[pri:1, instance:com.hrm.qa.testcases.MyInfoPageTest@614ddd49]" name="verifyMyInfoIsDisplayedTest" duration-ms="63" started-at="2022-03-16T10:28:52 EDT" finished-at="2022-03-16T10:28:53 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMyInfoIsDisplayedTest -->
+        <test-method status="PASS" signature="teaDown()[pri:0, instance:com.hrm.qa.testcases.MyInfoPageTest@614ddd49]" name="teaDown" is-config="true" duration-ms="606" started-at="2022-03-16T10:28:53 EDT" finished-at="2022-03-16T10:28:53 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teaDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hrm.qa.testcases.MyInfoPageTest@614ddd49]" name="setUp" is-config="true" duration-ms="5320" started-at="2022-03-16T10:28:53 EDT" finished-at="2022-03-16T10:28:58 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="clickOnMyInfoTabTest()[pri:2, instance:com.hrm.qa.testcases.MyInfoPageTest@614ddd49]" name="clickOnMyInfoTabTest" duration-ms="1504" started-at="2022-03-16T10:28:58 EDT" finished-at="2022-03-16T10:29:00 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnMyInfoTabTest -->
+        <test-method status="PASS" signature="teaDown()[pri:0, instance:com.hrm.qa.testcases.MyInfoPageTest@614ddd49]" name="teaDown" is-config="true" duration-ms="634" started-at="2022-03-16T10:29:00 EDT" finished-at="2022-03-16T10:29:01 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teaDown -->
+      </class> <!-- com.hrm.qa.testcases.MyInfoPageTest -->
+      <class name="com.hrm.qa.testcases.DashboardPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hrm.qa.testcases.DashboardPageTest@1e6d1014]" name="setUp" is-config="true" duration-ms="7068" started-at="2022-03-16T10:28:23 EDT" finished-at="2022-03-16T10:28:30 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyDashboardTitleTest()[pri:1, instance:com.hrm.qa.testcases.DashboardPageTest@1e6d1014]" name="verifyDashboardTitleTest" duration-ms="6" started-at="2022-03-16T10:28:30 EDT" finished-at="2022-03-16T10:28:30 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDashboardTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hrm.qa.testcases.DashboardPageTest@1e6d1014]" name="tearDown" is-config="true" duration-ms="621" started-at="2022-03-16T10:28:30 EDT" finished-at="2022-03-16T10:28:30 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hrm.qa.testcases.DashboardPageTest@1e6d1014]" name="setUp" is-config="true" duration-ms="4707" started-at="2022-03-16T10:28:30 EDT" finished-at="2022-03-16T10:28:35 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyDashBoardHeaderTest()[pri:2, instance:com.hrm.qa.testcases.DashboardPageTest@1e6d1014]" name="verifyDashBoardHeaderTest" duration-ms="62" started-at="2022-03-16T10:28:35 EDT" finished-at="2022-03-16T10:28:35 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDashBoardHeaderTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hrm.qa.testcases.DashboardPageTest@1e6d1014]" name="tearDown" is-config="true" duration-ms="597" started-at="2022-03-16T10:28:35 EDT" finished-at="2022-03-16T10:28:36 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.hrm.qa.testcases.DashboardPageTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

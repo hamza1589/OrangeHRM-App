@@ -1,0 +1,4 @@
+com\hrm\qa\testcases\DashboardPageTest.class
+com\hrm\qa\testcases\MyInfoPageTest.class
+com\hrm\qa\testcases\LoginPageTest.class
+com\hrm\qa\testcases\AdminPageTest.class
